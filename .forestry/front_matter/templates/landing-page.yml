@@ -10,11 +10,13 @@ fields:
   config:
     required: true
 - type: textarea
-  name: description
+  name: textline
   label: Description
   config:
     wysiwyg: true
     required: true
+    schema:
+      format: markdown
 - type: text
   label: Hero Heading
   name: heading
